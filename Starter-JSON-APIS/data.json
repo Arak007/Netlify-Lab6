@@ -1,0 +1,97 @@
+{
+  "companyName": "Bob's Bait and Tackle Shop",
+  "streetAddress1": "456 Flounder's L.",
+  "streetAddress2": "Unit #24",
+  "city": "Watershed",
+  "province":"Nova Scotia",
+  "country": "Canada",
+  "established": 1965,
+  "active": true,
+  "slogan": "We're masters of Bait!!" ,
+  "featuredProducts": 
+  [
+    645342,
+    254635,
+    345356
+  ], 
+
+  "products": 
+  [
+    {
+      "sku":645342,
+      "name":"Worms",
+      "weight":1 ,
+      "dimension":
+      {
+        "height":10,
+        "width":10,
+        "length":20
+      },
+      "price" : 3.5
+    },
+    {
+      "sku":254635,
+      "name":"Leeches",
+      "weight":1 ,
+      "dimension":
+      {
+        "height":10,
+        "width":10,
+        "length":20
+      },
+      "price" : 4.65
+    },
+    {
+      "sku":345356,
+      "name":"Blue Whale",
+      "weight":140000 ,
+      "dimension":
+      {
+        "height":300,
+        "width":100,
+        "length":2000
+      },
+      "price" : 12359.35
+    },
+    {
+      "sku":345346,
+      "name":"Kraken",
+      "weight":140000 ,
+      "dimension":
+      {
+        "height":300,
+        "width":100,
+        "length":2000
+      },
+      "price" : 234359.25
+    },
+    {
+      "sku": 345306,
+      "name":"Collosal Squids",
+      "weight":75000 ,
+      "dimension":
+      {
+        "height":100,
+        "width":100,
+        "length":5670
+      },
+      "price" : 23006.73
+    }  
+  ],
+
+  "onSale": 
+  [
+    {
+      "sku": 345306,
+      "discountPercent": 25
+    }
+     ,
+    {
+      "sku": 345346,
+      "discountPercent": 75
+    }
+
+  ]
+ 
+}
+
